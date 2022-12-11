@@ -21,7 +21,7 @@ int [] FillArrayInt(int [] array)//Заполнение массива
     return array;
 }
 
-Console.WriteLine($"Введите колличество чисел, которые Вы хотите ввести"); 
+Console.WriteLine($"Введите количество чисел, которые Вы хотите ввести"); 
 int [] array = MadeArray(ReadLineInt());
 Console.WriteLine($"Вводите числа по одному через Enter");
 FillArrayInt(array);
@@ -32,7 +32,7 @@ for(int i = 0; i < array.Length; i++)
    sum++;
 }
 
-Console.WriteLine($"Колличество введенных чисел больше нуля {sum}");
+Console.WriteLine($"Количество введенных чисел больше нуля {sum}");
 
 
 
